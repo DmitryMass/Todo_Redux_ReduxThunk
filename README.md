@@ -1,5 +1,9 @@
 CRUD Contact List.
 
+Server(MockApi) : 'https://62c063fdc134cf51cece6b18.mockapi.io/api/contact'
+
+If u clicked the btn and nothing happened, please wait, (mockapi...) :D
+
 1. React-Redux, Redux Thunk
 2. CSS Module
 3. React Hooks (useEffect, useState)
