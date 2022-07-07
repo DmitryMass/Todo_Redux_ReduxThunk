@@ -8,8 +8,7 @@ body {
   font-style: italic;
   font-size: 18px;
 }
-button,
-input {
+button {
   font-style: italic;
   font-family: 'Lora', serif;
   font-size: 18px;
@@ -29,4 +28,54 @@ ul {
 }
 #root {
   width: 100%;
+}
+
+.input,
+.input__error {
+  font-style: italic;
+  font-family: 'Lora', serif;
+  font-size: 18px;
+  font-weight: 600;
+  max-width: 100%;
+  padding: 5px;
+  border-radius: 4px;
+  border: none;
+}
+.input__error {
+  box-shadow: inset 0px 0px 8px red;
+}
+.error {
+  font-size: 12px;
+  color: red;
+}
+
+.useful__info {
+  position: relative;
+  max-width: 500px;
+  margin: 0 auto;
+}
+.hide {
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+.show__title {
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+.show {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: white;
+  cursor: pointer;
+  position: absolute;
+  left: -38px;
+}
+.show::after {
+  content: 'i';
+  position: absolute;
+  color: black;
+  font-size: 24px;
+  font-weight: 500;
+  left: 8px;
 }

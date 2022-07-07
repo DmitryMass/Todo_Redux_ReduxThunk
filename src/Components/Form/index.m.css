@@ -22,12 +22,6 @@
   gap: 20px;
 }
 
-.form__inputs > td > input {
-  max-width: 100%;
-  border: none;
-  padding: 5px;
-  border-radius: 4px;
-}
 table {
   display: block;
   padding: 5px;
