@@ -1,0 +1,34 @@
+.form__wrapper {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+.form__addBtn {
+  height: 40px;
+  border: none;
+  border-radius: 12px 0px 12px 0px;
+  color: white;
+  background: rgb(9, 171, 0);
+}
+
+.form__inputs {
+  display: grid;
+  justify-items: end;
+  row-gap: 10px;
+}
+.form__inputs > td {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.form__inputs > td > input {
+  max-width: 100%;
+  border: none;
+  padding: 5px;
+  border-radius: 4px;
+}
+table {
+  display: block;
+  padding: 5px;
+}

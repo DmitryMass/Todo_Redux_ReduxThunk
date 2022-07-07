@@ -1,0 +1,32 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(#0a205a, #010913);
+  font-family: 'Lora', serif;
+  font-style: italic;
+  font-size: 18px;
+}
+button,
+input {
+  font-style: italic;
+  font-family: 'Lora', serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+ul {
+  overflow: auto;
+  height: 300px;
+}
+.wrapper {
+  max-width: 550px;
+  margin: 0 auto;
+  padding: 35px;
+  border-radius: 12px;
+  background: linear-gradient(#0036ca29, #cee9003a);
+  color: white;
+}
+#root {
+  width: 100%;
+}

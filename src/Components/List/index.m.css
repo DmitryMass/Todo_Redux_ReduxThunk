@@ -1,0 +1,54 @@
+.list {
+  padding: 10px;
+}
+.list__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+  border-bottom: 1px solid white;
+  border-radius: 0px 0px 12px;
+}
+.list__span {
+  width: 75%;
+  display: block;
+}
+.list__span > span {
+  width: 25%;
+  display: inline-block;
+  padding: 0 15px;
+}
+
+.removeBtn,
+.editBtn {
+  height: 40px;
+  border: none;
+  color: rgb(246, 246, 246);
+}
+.removeBtn {
+  border-radius: 12px 0px 12px 0px;
+  background: rgb(184, 6, 6);
+  transition: all 0.2s ease;
+}
+.editBtn {
+  background: rgba(175, 143, 26, 0.975);
+  border-radius: 0px 12px 0px 12px;
+  padding: 8px;
+  transition: all 0.2s ease;
+}
+.editBtn:hover {
+  transform: scale(1.1);
+}
+.removeBtn:hover {
+  transform: scale(1.1);
+}
+.btn__wrapper {
+  display: flex;
+}
+
+.loading {
+  width: 400px;
+  margin: 0 auto;
+  font-size: 24px;
+  text-align: center;
+}
