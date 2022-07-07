@@ -14,8 +14,8 @@ const App = () => {
 
   return (
     <div className="wrapper">
-      <div className="useful__info" onClick={() => setInfo(!info)}>
-        <div className="useful__info show" />
+      <div className="useful__info">
+        <div className="useful__info show" onClick={() => setInfo(!info)} />
         <h3 className={info ? 'show__title' : 'hide'}>
           If u clicked on a btn or added contact and nothing happened, wait
           please. Server is loading.
